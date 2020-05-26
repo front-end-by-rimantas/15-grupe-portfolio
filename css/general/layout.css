@@ -51,7 +51,8 @@
         .container > .row > .col-1 {
             display: inline-block;
             float: left;
-            margin: 0 calc( var(--gap) / 2 );
+            margin-right: calc( var(--gap) / 2 );
+            margin-left: calc( var(--gap) / 2 );
         }
         .container > .row > .col-12 { width: var(--w-12); }
         .container > .row > .col-11 { width: var(--w-11); }
