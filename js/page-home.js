@@ -1,8 +1,13 @@
 "use strict";
 
-import skills from './data/skills.js';
-import progressBars from './components/progress-bar.js';
+import skillsData from './data/skills.js';
+import jobHistoryData from './data/job-history.js';
+import progressBars from './components/progress-bar/progress-bar.js';
+import JobHistory from './components/job-history/JobHistory.js';
 
 const progressBarsSelector = '#skills .col-7';
-progressBars.renderProgressBar( progressBarsSelector, skills );
+progressBars.renderProgressBar( progressBarsSelector, skillsData );
 progressBars.animateProgressBars( progressBarsSelector );
+
+const jobHistorySelector = '#history .jobs-list';
+new JobHistory( jobHistorySelector, jobHistoryData );

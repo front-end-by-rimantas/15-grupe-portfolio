@@ -1,0 +1,7 @@
+@import '../general/reset.css';
+@import '../general/font-awesome.min.css';
+@import '../general/layout.css';
+@import '../general/variables.css';
+@import '../components/progress-bar.css';
+@import '../components/job-history.css';
+@import '../general/custom.css';
