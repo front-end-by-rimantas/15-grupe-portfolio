@@ -26,13 +26,13 @@ class JobBlock {
         }
 
         const HTML = `
-            <div class="col-6">
+            <div class="job-item">
                 <div class="header">
                     <div class="texts">
                         <h3>${this.data.jobTitle}</h3>
                         <p>${location}</p>
                     </div>
-                    <div class="btn"></div>
+                    <div class="btn">Jul'15</div>
                 </div>
                 <p>${this.data.description}</p>
             </div>`;
