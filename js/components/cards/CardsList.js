@@ -1,4 +1,4 @@
-import AchievementBlock from './AchievementBlock.js';
+import Card from './Card.js';
 
 class Achievements {
     constructor( selector, data ) {
@@ -30,7 +30,7 @@ class Achievements {
         }
 
         for ( let i=0; i<this.data.length; i++ ) {
-            new AchievementBlock(this.DOM, this.data[i]);
+            new Card(this.DOM, this.data[i]);
         }
     }
 }

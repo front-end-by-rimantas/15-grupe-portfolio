@@ -1,4 +1,4 @@
-.achievements {
+.card {
     padding: 60px 20px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -7,7 +7,7 @@
     box-shadow: 0 6px 16px #0005;
     border-radius: 4px;
 }
-    .achievements > .fa {
+    .card > .fa {
         width: 100px;
         height: 100px;
         background-color: var(--third-color);
@@ -18,7 +18,7 @@
         color: #777;
         animation: wave 2s linear 0s infinite forwards;
     }
-    .achievements > .number {
+    .card > .number {
         display: inline-block;
         width: 100%;
         margin: 15px 0;
@@ -26,14 +26,18 @@
         line-height: 40px;
         font-weight: bold;
     }
-    .achievements > h4 {
+    .card > h4 {
         display: inline-block;
         width: 100%;
         font-size: 18px;
         line-height: 20px;
         text-transform: uppercase;
     }
-    .achievements > .description {
+        .card > .fa + h4 {
+            margin: 15px 0;
+            text-transform: capitalize;
+        }
+    .card > .description {
         display: inline-block;
         width: 100%;
     }
