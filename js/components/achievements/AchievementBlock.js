@@ -22,7 +22,7 @@ class AchievementBlock {
         }
         
         const HTML = `
-            <div class="col-3 col-md-6 col-xs-12">
+            <div class="achievements col-3 col-md-6 col-xs-12">
                 <i class="fa fa-${this.data.icon}"></i>
                 ${numberHTML}
                 <h4>${this.data.title}</h4>
