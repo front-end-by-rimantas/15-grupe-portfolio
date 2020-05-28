@@ -1,6 +1,6 @@
 export default [
     {
-        img: '#',
+        img: 'w3.jpg',
         title: 'Serlokas',
         tags: ['html', 'css'],
         link: '#',
@@ -13,7 +13,7 @@ export default [
         ]
     },
     {
-        img: '#',
+        img: 'w3.jpg',
         title: 'Mergaite',
         tags: ['html', 'css'],
         link: '#',
@@ -26,7 +26,7 @@ export default [
         ]
     },
     {
-        img: '#',
+        img: 'w3.jpg',
         title: 'Sign up',
         tags: ['html', 'css'],
         link: '#',
@@ -39,7 +39,7 @@ export default [
         ]
     },
     {
-        img: '#',
+        img: 'w3.jpg',
         title: 'Coming soon',
         tags: ['html', 'css', 'responsive', 'icons'],
         link: '#',
@@ -52,7 +52,7 @@ export default [
         ]
     },
     {
-        img: '#',
+        img: 'w3.jpg',
         title: 'Saskes',
         tags: ['js'],
         link: '#',
@@ -65,7 +65,7 @@ export default [
         ]
     },
     {
-        img: '#',
+        img: 'w3.jpg',
         title: 'Todo app',
         tags: ['responsive', 'js', 'localStorage'],
         link: '#',
@@ -78,7 +78,7 @@ export default [
         ]
     },
     {
-        img: '#',
+        img: 'w3.jpg',
         title: 'Portfolio',
         tags: ['html', 'css', 'responsive', 'js', 'oop', 'icons'],
         link: '#',

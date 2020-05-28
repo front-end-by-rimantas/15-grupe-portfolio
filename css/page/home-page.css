@@ -4,5 +4,6 @@
 @import '../general/variables.css';
 @import '../components/achievements.css';
 @import '../components/progress-bar.css';
+@import '../components/gallery.css';
 @import '../components/job-history.css';
 @import '../general/custom.css';

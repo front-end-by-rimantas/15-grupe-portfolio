@@ -2,10 +2,11 @@ import Filter from './Filter.js';
 import List from './List.js';
 
 class Gallery {
-    constructor( selector, data ) {
+    constructor( selector, data, path ) {
         this.selector = selector;
         this.DOM = null;
         this.data = data;
+        this.path = path;
 
         this.init();
     }
@@ -33,7 +34,7 @@ class Gallery {
     render() {
         this.DOM.innerHTML = '';
         new Filter( this.DOM, this.filterUniqueTags() );
-        new List( this.DOM, this.data );
+        new List( this.DOM, this.data, this.path );
     }
 }
 

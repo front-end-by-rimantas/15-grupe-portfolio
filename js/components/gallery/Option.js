@@ -11,7 +11,7 @@ class Option {
     }
 
     render() {
-        console.log(this);
+        // console.log(this);
     }
 }
 

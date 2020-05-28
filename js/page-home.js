@@ -18,7 +18,8 @@ progressBars.renderProgressBar( progressBarsSelector, skillsData );
 progressBars.animateProgressBars( progressBarsSelector );
 
 const workGallerySelector = '#works > .row:nth-child(3) > .col-12';
-new Gallery(workGallerySelector, worksData);
+const worksDirectoryPath = 'works';
+new Gallery(workGallerySelector, worksData, worksDirectoryPath);
 
 const jobHistorySelector = '#history .jobs-list';
 new JobHistory( jobHistorySelector, jobHistoryData );

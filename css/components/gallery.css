@@ -1,0 +1,57 @@
+.gallery {
+}
+    .gallery > .filter {
+        margin-bottom: 30px;
+    }
+        .gallery > .filter > .option {
+
+        }
+            .gallery > .filter > .option:hover {
+
+            }
+            .gallery > .filter > .option.active {
+
+            }
+    .gallery > .list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+    }
+        .gallery > .list > .item {
+            display: inline-block;
+            width: 100%;
+        }
+            .gallery > .list > .item:hover {
+
+            }
+            .gallery > .list > .item > img {
+                display: inline-block;
+                width: 100%;
+            }
+            .gallery > .list > .item > .content {
+
+            }
+                .gallery > .list > .item > .content > .title {
+
+                }
+                .gallery > .list > .item > .content > .tags {
+
+                }
+                    .gallery > .list > .item > .content > .tags > .tag {
+
+                    }
+                        .gallery > .list > .item > .content > .tags > .tag:hover {
+
+                        }
+                .gallery > .list > .item > .content > .author {
+
+                }
+                    .gallery > .list > .item > .content > .author:hover {
+
+                    }
+                .gallery > .list > .item > .content > .visit {
+
+                }
+                    .gallery > .list > .item > .content > .visit:hover {
+
+                    }
