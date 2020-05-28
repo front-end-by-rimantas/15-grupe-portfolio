@@ -1,3 +1,6 @@
+import Filter from './Filter.js';
+import List from './List.js';
+
 class Gallery {
     constructor( selector, data ) {
         this.selector = selector;
@@ -8,12 +11,29 @@ class Gallery {
     }
 
     init() {
-        // validuojame selectoriu
-        // redering
+        const DOM = document.querySelector(this.selector);
+        if ( !DOM ) {
+            throw 'ERROR: turim beda del vietos (a.k.a. ploto) 🤔🤔';
+        }
+        this.DOM = DOM;
+
+        this.render();
+    }
+
+    filterUniqueTags() {
+        let uniqueTags = [];
+
+        // logika
+        uniqueTags.push('html');
+        uniqueTags.push('css');
+
+        return uniqueTags;
     }
 
     render() {
-        console.log('rendering gallery...');
+        this.DOM.innerHTML = '';
+        new Filter( this.DOM, this.filterUniqueTags() );
+        new List( this.DOM, this.data );
     }
 }
 

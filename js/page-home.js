@@ -17,7 +17,7 @@ const progressBarsSelector = '#skills .col-7';
 progressBars.renderProgressBar( progressBarsSelector, skillsData );
 progressBars.animateProgressBars( progressBarsSelector );
 
-const workGallerySelector = '#works > .row:nth-child(3)';
+const workGallerySelector = '#works > .row:nth-child(3) > .col-12';
 new Gallery(workGallerySelector, worksData);
 
 const jobHistorySelector = '#history .jobs-list';
