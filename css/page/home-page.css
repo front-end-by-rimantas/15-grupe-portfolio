@@ -2,6 +2,7 @@
 @import '../general/font-awesome.min.css';
 @import '../general/layout.css';
 @import '../general/variables.css';
+@import '../components/achievements.css';
 @import '../components/progress-bar.css';
 @import '../components/job-history.css';
 @import '../general/custom.css';
